@@ -81,12 +81,12 @@ INSTANCE_METRICS = [
     ('sqlserver.memory.total_server_memory', 'Total Server Memory (KB)', ''),
     ('sqlserver.memory.sql_cache', 'SQL Cache Memory (KB)', ''),
     ('sqlserver.memory.grants_outstanding', 'Memory Grants Outstanding', ''),
-    ('sqlserver.memory.database_cache', 'Database Cache Memory', ''),
-    ('sqlserver.memory.connection', 'Connection Memory', ''),
-    ('sqlserver.memory.optimizer', 'Optimizer Memory', ''),
-    ('sqlserver.memory.granted_workspace', 'Granted Workspace Memory', ''),
-    ('sqlserver.memory.lock', 'Lock Memory', ''),
-    ('sqlserver.memory.log_pool_memory', 'Log Pool Memory', ''),
+    ('sqlserver.memory.database_cache', 'Database Cache Memory (KB)', ''),
+    ('sqlserver.memory.connection', 'Connection Memory (KB)', ''),
+    ('sqlserver.memory.optimizer', 'Optimizer Memory (KB)', ''),
+    ('sqlserver.memory.granted_workspace', 'Granted Workspace Memory (KB)', ''),
+    ('sqlserver.memory.lock', 'Lock Memory (KB)', ''),
+    ('sqlserver.memory.log_pool_memory', 'Log Pool Memory (KB)', ''),
     # SQLServer:Buffer Manager
     ('sqlserver.buffer.cache_hit_ratio', 'Buffer cache hit ratio', ''),  # RAW_LARGE_FRACTION
     ('sqlserver.buffer.page_life_expectancy', 'Page life expectancy', ''),  # LARGE_RAWCOUNT
